@@ -1,0 +1,95 @@
+{
+    "product":[
+        {
+            "serialNo":"1",
+            "name":"Onion",
+            "quantity":"1 Kg",
+            "unit":"1",
+            "dept":"Fresh Vegetables",
+            "notes":"Medium Size,Fresh"
+        },
+        {
+            "serialNo":"2",
+            "name":"Tomato",
+            "quantity":"500 g",
+            "unit":"1",
+            "dept":"Fresh Vegetables",
+            "notes":"partly sour and partly sweet,Fresh,Medium Size"
+
+        },
+        {
+            "serialNo":"3",
+            "name":"Onion - Sambhar",
+            "quantity":"500 g",
+            "unit":"1",
+            "dept":"Fresh Vegetables",
+            "notes":"organicaly grown"
+
+        },
+        {
+            "serialNo":"4",
+            "name":"Boiled Rice",
+            "quantity":"5 Kg",
+            "unit":"2",
+            "dept":"Rice & Rice products",
+            "notes":"Short Grain Round rice"
+
+        },
+        {
+            "serialNo":"5",
+            "name":"Atta-whole Wheat",
+            "quantity":"1 Kg",
+            "unit":"1",
+            "dept":"Atta, Flours",
+            "notes":"Aashirvaad whole wheat atta"
+
+        },
+        {
+            "serialNo":"6",
+            "name":"Urad-Whole",
+            "quantity":"500 g",
+            "unit":"1",
+            "dept":"Dals & Pulses",
+            "notes":"need polished one"
+
+        },
+        {
+            "serialNo":"7",
+            "name":"Brown Channa",
+            "quantity":"1 Kg",
+            "unit":"2",
+            "dept":"Dals & Pulses",
+            "notes":"Fresh and newly packed"
+
+        },
+        {
+            "serialNo":"8",
+            "name":"Green Moong Whole",
+            "quantity":"500 g",
+            "unit":"1",
+            "dept":"Dals & Pulses",
+            "notes":"Fresh and newly packed"
+
+        },
+        {
+            "serialNo":"9",
+            "name":"cashew Nut",
+            "quantity":"500 g",
+            "unit":"1",
+            "dept":"Dry Fruits",
+            "notes":"whole not broken"
+
+        },
+        {
+            "serialNo":"10",
+            "name":"Raisins",
+            "quantity":"100 g",
+            "unit":"3",
+            "dept":"Dry Fruits",
+            "notes":"Fresh and newly packed"
+
+        }
+
+    ]
+}
+

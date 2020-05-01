@@ -1,0 +1,9 @@
+var value="";
+value += "<table>"
+ for (i=0;i<people.length;i++) {
+        value += "<tr>"
+        value += "<td>" + people[i].name  + "</td>"
+        }
+    value += "</table>" 
+      document.getElementById("demo").innerHTML = value;
+    }
