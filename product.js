@@ -31,7 +31,7 @@ xhttp.onreadystatechange = function() {
           txt += "<td>" + prod[i].dept  + "</td>"
           txt += "<td>" + prod[i].notes + "</td>"
           txt += "<td>" + "<input type='checkbox'></input>" + "</td>"
-          txt += "<td>" + "<input type='button' class='btn btn-danger' value='Delete' onclick='deleteRow(this);'>" + "</td>"
+          txt += "<td>" + "<button class='btns' onclick='deleteRow(this);'><i class='fa fa-trash'></i></button>" + "</td>"
           txt+= "</tr>";
         }if(depart.value=="All"){
           txt += "<tr id='d'>"
@@ -42,7 +42,7 @@ xhttp.onreadystatechange = function() {
           txt += "<td>" + prod[i].dept  + "</td>"
           txt += "<td>" + prod[i].notes + "</td>"
           txt += "<td>" + "<input type='checkbox'></input>" + "</td>"
-          txt += "<td>" + "<input type='button' class='btn btn-danger' value='Delete' onclick='deleteRow(this);'>" + "</td>"
+          txt += "<td>" + "<button class='btns' onclick='deleteRow(this);'><i class='fa fa-trash'></i></button>" + "</td>"
           txt+= "</tr>";
         }
       }
@@ -63,6 +63,7 @@ function deleteRow(r) {
 function addItem(){
   var table = document.getElementById("myTable");
   var i = table.rows.length;
+  // var k=prod.length;
   var row = table.insertRow(i);
   var cell1 = row.insertCell(0);
   var cell2 = row.insertCell(1);
@@ -79,6 +80,6 @@ function addItem(){
   cell5.innerHTML = document.getElementById("deptmt").value;
   cell6.innerHTML = document.getElementById("remark").value;
   cell7.innerHTML = "<input type='checkbox'></input>";
-  cell8.innerHTML = "<input type='button' class='btn btn-danger' value='Delete' onclick='deleteRow(this);'>";
-  
-}
+  cell8.innerHTML = "<button class='btns' onclick='deleteRow(this);'><i class='fa fa-trash'></i></button>";
+
+  }
